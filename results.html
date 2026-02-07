@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Results - Casa de Campo 2026</title>
+  <meta property="og:title" content="Casa de Campo 2026 - Voting Results">
+  <meta property="og:description" content="Live results for our Airbnb villa vote">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="nav-brand">Casa de Campo 2026</a>
+    <div class="nav-links">
+      <a href="vote.html">Vote</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="results-header">
+      <h1>Voting Results</h1>
+      <div class="vote-progress">
+        <span id="voteCountText">Loading...</span>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progressFill" style="width:0%"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Loading State -->
+    <div class="loading" id="loadingState">
+      <div class="spinner"></div>
+      <p>Connecting to vote database...</p>
+    </div>
+
+    <!-- No Votes State -->
+    <div class="no-votes" id="noVotesState" style="display:none;">
+      <h2>No Votes Yet</h2>
+      <p>Be the first to vote!</p>
+      <a href="vote.html" class="btn btn-primary" style="margin-top:16px;">Vote Now</a>
+    </div>
+
+    <!-- Results Content -->
+    <div id="resultsContent" style="display:none;">
+      <!-- Winner Banner -->
+      <div id="winnerBanner"></div>
+
+      <!-- IRV Rounds -->
+      <div class="rounds-container" id="roundsContainer"></div>
+
+      <!-- Individual Votes -->
+      <details class="votes-table-section" id="votesTableSection">
+        <summary>View Individual Votes</summary>
+        <table class="votes-table" id="votesTable">
+          <thead>
+            <tr>
+              <th>Voter</th>
+              <th>1st Choice</th>
+              <th>2nd Choice</th>
+              <th>3rd Choice</th>
+              <th>4th Choice</th>
+            </tr>
+          </thead>
+          <tbody id="votesTableBody"></tbody>
+        </table>
+      </details>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <a href="index.html">Home</a> &middot; <a href="vote.html">Vote</a>
+  </footer>
+
+  <script type="module" src="js/results.js"></script>
+</body>
+</html>
