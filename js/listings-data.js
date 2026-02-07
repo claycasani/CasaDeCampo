@@ -17,7 +17,12 @@ export const listings = [
       'images/properties/option-a/1.jpg',
       'images/properties/option-a/2.jpg',
       'images/properties/option-a/3.jpg',
-      'images/properties/option-a/4.jpg'
+      'images/properties/option-a/4.jpg',
+      'images/properties/option-a/5.jpg',
+      'images/properties/option-a/6.jpg',
+      'images/properties/option-a/7.jpg',
+      'images/properties/option-a/8.jpg',
+      'images/properties/option-a/9.jpg'
     ],
     highlights: ['Pool', 'Scenic location', 'Free cancellation before Mar 9'],
     bedrooms_detail: [
@@ -47,7 +52,11 @@ export const listings = [
       'images/properties/option-b/1.jpeg',
       'images/properties/option-b/2.jpeg',
       'images/properties/option-b/3.jpeg',
-      'images/properties/option-b/4.jpeg'
+      'images/properties/option-b/4.jpeg',
+      'images/properties/option-b/5.jpeg',
+      'images/properties/option-b/6.jpeg',
+      'images/properties/option-b/7.jpeg',
+      'images/properties/option-b/8.jpeg'
     ],
     highlights: ['Beach access', 'Outdoor entertaining', 'Free cancellation before Feb 8'],
     bedrooms_detail: [
@@ -76,7 +85,10 @@ export const listings = [
       'images/properties/option-c/1.png',
       'images/properties/option-c/2.png',
       'images/properties/option-c/3.png',
-      'images/properties/option-c/4.png'
+      'images/properties/option-c/4.png',
+      'images/properties/option-c/5.png',
+      'images/properties/option-c/6.png',
+      'images/properties/option-c/7.png'
     ],
     highlights: ['Most space (16+ guests)', '7 bedrooms', '14 beds', '76 amenities'],
     bedrooms_detail: []
@@ -100,7 +112,10 @@ export const listings = [
       'images/properties/option-d/1.jpeg',
       'images/properties/option-d/2.jpeg',
       'images/properties/option-d/3.jpeg',
-      'images/properties/option-d/4.jpeg'
+      'images/properties/option-d/4.jpeg',
+      'images/properties/option-d/5.jpeg',
+      'images/properties/option-d/6.jpeg',
+      'images/properties/option-d/7.jpeg'
     ],
     highlights: ['Best rated host (4.75, 1450 reviews)', 'Smart TVs in every room', '65" outdoor TV', 'BBQ area'],
     bedrooms_detail: [
